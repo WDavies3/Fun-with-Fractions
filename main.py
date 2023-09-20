@@ -1,0 +1,32 @@
+from Fraction import Fraction
+
+myFrac = Fraction(10,5)
+print(f'My Fraction: {myFrac.out()}')
+
+fracA = Fraction(1,2)
+fracA2 = Fraction(1,2)
+fracB = Fraction(2,3)
+fracC = fracA + fracB
+print(f'Fraction A: {fracA.out()}')
+print(f'Fraction B: {fracB.out()}')
+print(f'Fraction C (A + B): {fracC.out()}')
+print(f'Fraction C - My Fraction: {(fracC-myFrac).out()}')
+print(f'My Fraction - Fraction C: {(myFrac-fracC).out()}')
+print(f'Fraction A * Fraction B: {(fracA * fracB).out()}')
+print(f'Fraction A / Fraction B: {(fracA / fracB).out()}')
+print(f'Fraction B + 5: {(fracB + 5).out()}')
+print(f'Fraction A == Fraction B: {fracA == fracB}')
+print(f'Fraction A == Fraction A2: {fracA == fracA2}')
+print(f'Fraction A != Fraction B: {fracA != fracB}')
+print(f'Fraction A != Fraction A2: {fracA != fracA2}')
+print(f'Fraction A > Fraction B: {fracA > fracB}')
+print(f'Fraction B > Fraction A: {fracB > fracA}')
+print(f'Fraction A > Fraction A2: {fracA > fracA2}')
+print(f'Fraction A >= Fraction B: {fracA >= fracB}')
+print(f'Fraction A >= Fraction A2: {fracA >= fracA2}')
+print(f'Fraction A < Fraction B: {fracA < fracB}')
+print(f'Fraction B < Fraction A: {fracB < fracA}')
+print(f'Fraction A < Fraction A2: {fracA < fracA2}')
+print(f'Fraction A <= Fraction B: {fracA <= fracB}')
+print(f'Fraction A <= Fraction A2: {fracA <= fracA2}')
+
